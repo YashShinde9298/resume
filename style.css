@@ -1,0 +1,114 @@
+.container {
+    border: 20px solid rgb(150, 3, 3);
+    height: fit-content;
+    width: 1020px;
+    margin: auto;
+}
+
+h3 {
+    letter-spacing: 2px;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+
+.photo {
+    height: 150px;
+    width: 115px;
+    margin-top: 33px;
+    margin-left: 130px;
+}
+
+.header {
+    display: flex;
+    box-sizing: border-box;
+    height: 200px;
+}
+
+.header-content {
+    flex: 50%;
+}
+
+.name {
+    font-size: 40px;
+    margin-top: 80px;
+    letter-spacing: 3px;
+}
+
+.data {
+    display: flex;
+}
+
+.bio-data {
+
+    height: fit-content;
+    width: 35%;
+}
+
+.contacts {
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(255, 179, 189);
+    /* border-radius: 8px; */
+}
+
+.education {
+    /* border: 2px solid green; */
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+.education-details {
+    /* border: 2px solid greenyellow; */
+    margin-bottom: 30px;
+}
+
+.languages {
+    padding-left: 20px;
+    margin-top: 40px;
+
+}
+
+.data-container {
+    /* border: 2px solid darkgoldenrod; */
+    width: 65%;
+}
+
+.summary {
+    /* border: 2px solid darkgreen; */
+    padding: 0px 30px;
+}
+
+#summary-info {
+    text-align: justify;
+}
+
+.skills {
+    /* border: 2px solid blue; */
+    padding: 0px 30px;
+    margin-top: 40px;
+}
+
+.skill-data {
+    /* border: 2px solid darkcyan; */
+    display: flex;
+}
+
+.skill-list {
+    flex: 50%;
+    /* border: 2px solid red; */
+    line-height: 1.4;
+}
+
+.projects {
+    /* border: 2px solid darkorchid; */
+    padding: 0px 30px;
+    margin-top: 40px;
+}
+
+.project-details {
+    /* border: 2px solid darkorange; */
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
